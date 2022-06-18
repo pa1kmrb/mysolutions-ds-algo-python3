@@ -27,6 +27,8 @@ output_tree = generate_tree(data)
 
 #convert tree to tuple to check output
 def tree_to_tuple(data_input) -> Tuple[int]:
+    #in case of None node, below execution is skipped and python returns 'None' implicitly..
+    #..as no explicit return is specified
     if isinstance(data_input, Node):
         if data_input.left is None and data_input.right is None:
             return data_input.key

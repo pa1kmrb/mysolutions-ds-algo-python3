@@ -1,2 +1,2 @@
 # mysolutions-ds-algo-python3
-My solutions for various algorithms in Python3
+My solutions to problems using algorithms and data structures in Python3
